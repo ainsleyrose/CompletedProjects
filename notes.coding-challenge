@@ -1,3 +1,5 @@
+// this is coded & edited on p5.js > sketch.js
+
 let cols;
 let rows;
 let current;
