@@ -5,7 +5,8 @@ let rows;
 let current;
 let previous;
 
-let dampening = 0.999; // this is how you make the ripples further out and loops as it hits the rows at the end
+let dampening = 0.999; 
+// this is how you make the ripples further out and loops as it hits the rows at the end
 
 function setup() {
   pixelDensity(1);
@@ -14,12 +15,13 @@ function setup() {
   rows = height;
   current = new Array(cols).fill(0).map(n => new Array(rows).fill(0));
   previous = new Array(cols).fill(0).map(n => new Array(rows).fill(0));
-} //this function is made to create the background
+} 
+//this function is made to create the background
 
 function mouseDragged() {
   previous[mouseX][mouseY] = 2000;
-  //this is how you make the ripple pixel brighter
 }
+//this is how you make the ripple pixel brighter
 
 function draw() {
   background(0);
@@ -41,7 +43,8 @@ function draw() {
       pixels[index + 1] = current[i][j];
       pixels[index + 2] = current[i][j];
     }
-  } //this function is used to create/load the water ripples on the screen
+  } 
+  //this function is used to create/load the water ripples on the screen
   
   updatePixels();
 
