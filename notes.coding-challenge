@@ -51,5 +51,6 @@ function draw() {
   let temp = previous;
   previous = current;
   current = temp;
-  //swapping algorithm; these functions shows how to reuse previous functions for the next/loop
 }
+
+//swapping algorithm; these functions shows how to reuse previous functions for the next/loop
