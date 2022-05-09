@@ -13,4 +13,5 @@
 - Contributed and explained the code on out google slideshow for presention
 
 ### (Monday) May 9, 2022
+- learned new material to add unto the project <br>
 - Researched and added new code in the project/enhancing the code
