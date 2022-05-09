@@ -11,3 +11,6 @@
 
 ### (Wednesday) May 4, 2022
 - Contributed and explained the code on out google slideshow for presention
+
+### (Monday) May 9, 2022
+- Researched and added new code in the project/enhancing the code
