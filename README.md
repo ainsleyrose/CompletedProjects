@@ -15,3 +15,6 @@
 ### (Monday) May 9, 2022
 - learned new material to add unto the project <br>
 - Researched and added new code in the project/enhancing the code
+
+### (Tuesday) May 10, 2022
+- added team's addition in the project with what I have tried to contribute
