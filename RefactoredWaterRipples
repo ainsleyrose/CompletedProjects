@@ -8,6 +8,7 @@ let previous;
 
 let dampening = 0.99; 
 //dampening of water ripples can be changed anytime here
+//dampening was decreased for better performance
 
 function setup() {
   pixelDensity(0);
@@ -21,7 +22,6 @@ function setup() {
 function mouseDragged() {
   previous[mouseX][mouseY] = 2000;
 }
-//pixel intensity can be increased or decreased here
 
 function draw() {
   background(0);
@@ -43,8 +43,10 @@ function draw() {
       pixels[index + 1] = current[i][j];
       pixels[index + 2] = 255;
       pixels[index + 3] = 255;
-      //added one more instruction "pixels[index + 3] = 255;" mix colour to get the desired product
-      //changed the "current[i][j]" from "pixels[index + 2] = 255;] to "200" to determine background color
+      
+   //added one more instruction "pixels[index + 3] = 255;" mix colour to get the desired product
+   //changed the "current[i][j]" from "pixels[index + 2] = 255;] to "200" to determine background color
+      
     } 
   } 
   
