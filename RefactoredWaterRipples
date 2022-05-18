@@ -1,3 +1,5 @@
+//try this code out on: https://editor.p5js.org/
+
 let cols;
 let rows;
 let current;
