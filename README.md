@@ -18,3 +18,7 @@
 
 ### (Tuesday) May 10, 2022
 - added team's addition in the project with what I have tried to contribute
+
+### (Wednesday) May 18, 2022
+- Personal refactored code was finished and reviewed for presentation <br>
+- Preparing for presentation
