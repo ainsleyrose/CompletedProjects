@@ -19,9 +19,8 @@ function setup() {
 //this function is made to create the background
 
 function mouseDragged() {
-  previous[mouseX][mouseY] = 2000;
+  previous[mouseX][mouseY] = 2000; // number here is: how you make the ripple pixel brighter
 }
-//this is how you make the ripple pixel brighter
 
 function draw() {
   background(0);
