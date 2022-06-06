@@ -1,3 +1,6 @@
+// EDITOR: https://editor.p5js.org/
+// IN: sketch.js
+
 function setup() {
   createCanvas(700, 450);
 }
