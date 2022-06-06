@@ -1,0 +1,28 @@
+function setup() {
+  createCanvas(700, 450);
+}
+
+function draw() {
+  background(220);
+}
+
+textSize(200);
+textAlign(CENTER);
+
+// var picture = getImage ();
+
+// var currentScene;
+
+// var drawScene1 = function(){
+//  currentScene = 1
+//  background();
+//  image(var.givens, size, size);
+//  text("", size, size)
+// }
+
+// drawScene1();
+
+// mouseClicked = function(){
+// if (currentScene === 1) {drawScene2();
+//  }
+// };
